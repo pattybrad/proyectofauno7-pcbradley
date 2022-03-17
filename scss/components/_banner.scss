@@ -1,0 +1,51 @@
+$marg:50px;
+@mixin alineacion($align-text){
+	text-align: $align-text;
+}
+main{
+	margin:$marg;
+	div{
+		background-color:map-get($paletaCromatica,bgPrimario);
+		h1{
+			@include alineacion(center);
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home{
+	background: url(../assets/img/fondo1.jpg);
+	background-size: cover;
+	background-position: left;
+	.content{
+		width:55rem;
+		padding:2rem;
+		h1{
+		font-size:6rem;
+		text-transform:uppercase;
+		color:white;
+		text-shadow: 5px 5px #b8cde0;
+		}
+	}
+}
+
+

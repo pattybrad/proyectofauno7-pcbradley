@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="pasteleria,fiestas,presupuestos catering, contacto">
+  <meta name="description" content="pasteleria joven que brinda un servicio de alta calidad a un precio competitivo. Trabajamos con las mejores materias primas del mercado y gracias a nuestro expertise podemos ofrecer una propuesta gastronómica atractiva para cualquier tipo de evento social.">
+    <!-- LINK FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">  <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <!-- LINK AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- MI CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>CONTACTO</title>
+  </head>
+  <body>
+        <div class="container-fluid">
+      <!-- LOGO + NAV -->
+    <header class="row">
+        <div class="col-lg-12 col-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"><img src=../assets/img/logof1.jpg alt="" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">INICIO <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        </div>
+      <body>
+    <div class="container"> <div class=" text-center mt-5 ">
+          <hr class="mt-2 mb-5">
+        <h1>Formulario de contacto</h1>
+    </div>
+    <div class="row ">
+        <div class="col-lg-7 mx-auto">
+            <div class="card mt-2 mx-auto p-4 bg-light">
+                <div class="card-body bg-light">
+                    <div class="container">
+                        <form id="contact-form" role="form">
+                            <div class="controls">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_name">Nombre *</label> <input id="form_name" type="text" name="name" class="form-control" placeholder="Favor ingrese su nombre *" required="required" data-error="Firstname is required."> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_lastname">Apellido *</label> <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Favor ingrese su apellido *" required="required" data-error="Lastname is required."> </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="email" class="form-control" placeholder="Favor ingrese su email *" required="required" data-error="Valid email is required."> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_need">Solicitud *</label> <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                                <option value="" selected disabled>--Requerimiento--</option>
+                                                <option>Cotización eventos</option>
+                                                <option>Cotización Productos</option>
+                                                <option>Otro</option>
+                                                </select> </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group"> <label for="form_message">Mensaje *</label> <textarea id="form_message" name="message" class="form-control" placeholder="Escriba su mensaje aquí." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
+                                    </div>
+                                    <div class="col-md-12"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Enviar"> </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- /.8 -->
+        </div> <!-- /.row-->
+    </div>
+</div>
+    <!-- FOOTER -->
+        <footer class="row">
+            <div class="col-lg-12 col-12 footer-flex">
+                <h4>#Pasteleria El Fauno</h4>
+                <div class="rrss">
+                    <h5>Seguinos en:</h5> 
+                <div>
+                    <h5>Facebook                      
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a> 
+                    Instagram <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </h5>
+                </div>
+                </div>
+                <h5>Av.Gaona 1400-Padua</h5>
+            </div>
+        </footer>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+            <!--JS BOOSTRAP  -->
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>      
+</body>    
+</html>    
+

@@ -1,0 +1,52 @@
+.boton, .boton-ir {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: transparent;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px; }
+
+.boton-ir {
+  background-color: lightblue; }
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray; }
+  header .navbar-collapse {
+    justify-content: flex-end; }
+
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+footer {
+  padding: 20px;
+  background-color: lightgray; }
+
+main {
+  margin: 50px; }
+  main div {
+    background-color: lightgray; }
+    main div h1 {
+      text-align: center; }
+
+.home {
+  background: url(../assets/img/fondo1.jpg);
+  background-size: cover;
+  background-position: left; }
+  .home .content {
+    width: 55rem;
+    padding: 2rem; }
+    .home .content h1 {
+      font-size: 6rem;
+      text-transform: uppercase;
+      color: white;
+      text-shadow: 5px 5px #b8cde0; }
